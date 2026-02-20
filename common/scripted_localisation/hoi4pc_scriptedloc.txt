@@ -1,0 +1,122 @@
+
+defined_text = {
+	name = hoi4pc_get_header
+	## Default fallback ##
+	text = {
+		localization_key = hoi4pc_header.normal
+	}
+}
+
+defined_text = {
+	name = hoi4pc_get_desc
+
+	## Europe ##
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = GER
+			}
+		}
+		localization_key = hoi4pc_desc.GER
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = ITA
+			}
+		}
+		localization_key = hoi4pc_desc.ITA
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = ENG
+			}
+		}
+		localization_key = hoi4pc_desc.ENG
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = FRA
+			}
+		}
+		localization_key = hoi4pc_desc.FRA
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = SOV
+			}
+		}
+		localization_key = hoi4pc_desc.SOV
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = POL
+			}
+		}
+		localization_key = hoi4pc_desc.POL
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = SPR
+			}
+		}
+		localization_key = hoi4pc_desc.SPR
+	}
+
+	## Asia ##
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = JAP
+			}
+		}
+		localization_key = hoi4pc_desc.JAP
+	}
+
+	## Default fallback ##
+	text = {
+		localization_key = hoi4pc_desc.default
+	}
+}
+
+defined_text = {
+	name = hoi4pc_get_close
+
+	text = {
+		trigger = {
+			OR = {
+				any_allied_country = {
+					has_war_with = losing_country^peace_gui_index
+				}
+				has_war_with = losing_country^peace_gui_index
+			}
+		}
+		localization_key = peace_capitulation_close_good
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = losing_country^peace_gui_index
+				has_war_together_with = losing_country^peace_gui_index
+				is_in_faction_with = losing_country^peace_gui_index
+			}
+		}
+		localization_key = peace_capitulation_close_bad
+	}
+	text = {
+		trigger = {
+			NOT = { has_war_together_with = losing_country^peace_gui_index }
+			NOT = { is_in_faction_with = losing_country^peace_gui_index }
+			NOT = { any_allied_country = { has_war_with = losing_country^peace_gui_index } }
+			NOT = { has_war_with = losing_country^peace_gui_index }
+			NOT = { tag = losing_country^peace_gui_index }
+		}
+		localization_key = peace_capitulation_close_neutral
+	}
+}
+

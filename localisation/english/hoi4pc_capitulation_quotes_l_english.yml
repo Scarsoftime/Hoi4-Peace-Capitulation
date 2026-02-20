@@ -1,0 +1,35 @@
+﻿l_english:
+
+##=== Main GUI text ===##
+
+peace_capitulation_title: "Conflict Alert"
+peace_capitulation_main: "[hoi4pc_get_header]"
+peace_capitulation_desc: "[hoi4pc_get_desc]"
+peace_capitulation_close: "[hoi4pc_get_close]"
+peace_capitulation_close_good: "Great news!"
+peace_capitulation_close_bad: "These are dark times"
+peace_capitulation_close_neutral: "Uncertain times"
+
+##=== Header ===##
+
+hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameWithFlag]§! has defeated  §Y[?losing_country^peace_gui_index.GetNameWithFlag]§! in a war."
+
+##=== Desc ===##
+
+# Europe
+hoi4pc_desc.GER: "Endsieg."
+hoi4pc_desc.ITA: "All roads lead to Rome, paved in blood."
+hoi4pc_desc.ENG: "The sun has finally set on the British Empire."
+hoi4pc_desc.FRA: "Liberté, égalité, fraternité - ou la mort."
+hoi4pc_desc.SOV: "Not one step back."
+hoi4pc_desc.POL: "Not yet lost... until now."
+hoi4pc_desc.SPR: "No pasarán!"
+
+# Asia
+hoi4pc_desc.JAP: "The Rising Sun has been eclipsed."
+
+# America
+hoi4pc_desc.USA: "The last bastion of democracy has been toppled for good."
+
+# Default
+hoi4pc_desc.default: "War is hell."
