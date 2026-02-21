@@ -175,6 +175,14 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
+				original_tag = PRC
+			}
+		}
+		localization_key = hoi4pc_desc.PRC
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
 				original_tag = RAJ
 				is_subject = yes
 			}

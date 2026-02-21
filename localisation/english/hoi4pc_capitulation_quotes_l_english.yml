@@ -12,7 +12,7 @@ peace_capitulation_close_neutral: "Uncertain times"
 
 ##=== Header ===##
 
-hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated  §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in a war."
+hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in a war."
 
 ##=== Desc ===##
 
@@ -25,7 +25,7 @@ hoi4pc_desc.FRA_monarchist: "They could not reclaim the legacy lost long long ag
 hoi4pc_desc.SOV: "Not one step back."
 
 hoi4pc_desc.HOL: "They could hold back the power of the sea, but not of man."
-hoi4pc_desc.BEL: "Europe's greatest speedbump."
+hoi4pc_desc.BEL: "The people of Belgium fell to darkness, once again."
 hoi4pc_desc.LUX: "Too small to hide."
 hoi4pc_desc.SWI: "Neutrality could not save the Swiss."
 hoi4pc_desc.POL: "Not yet lost... until now."
@@ -34,11 +34,13 @@ hoi4pc_desc.DEN: "Silence falls over Copenhagen."
 hoi4pc_desc.SPR: "No pasarán!"
 hoi4pc_desc.TUR: "The gates of the Bosphorus has been opened."
 hoi4pc_desc.FIN: "The winter embraced us, but it could not save us."
-hoi4pc_desc.IRE: "They dreamt of a united homeland."
+hoi4pc_desc.IRE: "They dreamt of their homeland united."
 
 # Asia / Oceania
 hoi4pc_desc.JAP: "The Rising Sun has been eclipsed."
 hoi4pc_desc.MAN: "The Mandate of Heaven was never bestowed upon him."
+hoi4pc_desc.PRC: "And so they marched once more, never to return."
+
 hoi4pc_desc.RAJ_dominion: "The Jewel cracks."
 hoi4pc_desc.RAJ_free: "The People of India tasted freedom, but it was just a glimpse."
 hoi4pc_desc.AST: "No land too far, no outback untamed."
