@@ -1,6 +1,6 @@
 d_test_cap = {
-	set_temp_variable = { temp_winning_country = USA }
-	set_temp_variable = { temp_losing_country = JAP }
+	set_temp_variable = { temp_winning_country = ENG }
+	set_temp_variable = { temp_losing_country = IRE }
 
 	every_country = {
 		limit = { is_ai = no }
