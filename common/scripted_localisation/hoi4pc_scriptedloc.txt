@@ -1,6 +1,264 @@
 
 defined_text = {
 	name = hoi4pc_get_header
+
+	## Europe ##
+	# Operation Weserubung - German invasion of Denmark and Norway
+	text = {
+		trigger = {
+			var:winning_country^peace_gui_index = {
+				original_tag = GER
+			}
+			var:losing_country^peace_gui_index = {
+				OR = {
+					original_tag = NOR
+					original_tag = DEN
+				}
+			}
+		}
+		localization_key = hoi4pc_header.operation_weserubung
+	}
+	# Western Europe WW2 - Showed after the comintern joins
+	text = {
+		trigger = {
+			all_country_with_original_tag = {
+				original_tag_to_check = SOV
+				OR = {
+					has_war_with = GER
+					any_allied_country = {
+						has_war_with = GER
+					}
+				}
+			}
+			OR = {
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = GER
+							is_in_faction_with = GER
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = ENG
+							is_in_faction_with = ENG
+							original_tag = USA
+							is_in_faction_with = USA
+						}
+					}
+				}
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = ENG
+							is_in_faction_with = ENG
+							original_tag = USA
+							is_in_faction_with = USA
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = GER
+							is_in_faction_with = GER
+						}
+					}
+				}
+			}
+		}
+		localization_key = hoi4pc_header.ww2_western_europe
+	}
+	# Eastern Europe WW2 - Showed after the allies joins
+	text = {
+		trigger = {
+			ENG = {
+				OR = {
+					has_war_with = GER
+					any_allied_country = {
+						has_war_with = GER
+					}
+				}
+			}
+			OR = {
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = GER
+							is_in_faction_with = GER
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = SOV
+							is_in_faction_with = SOV
+						}
+					}
+				}
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = SOV
+							is_in_faction_with = SOV
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = GER
+							is_in_faction_with = GER
+						}
+					}
+				}
+			}
+		}
+		localization_key = hoi4pc_header.ww2_eastern_europe
+	}
+	# General ww2 - Showed when Allies XOR The Comintern is at war
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = GER
+							is_in_faction_with = GER
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = ENG
+							is_in_faction_with = ENG
+							original_tag = SOV
+							is_in_faction_with = SOV
+						}
+					}
+				}
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = ENG
+							is_in_faction_with = ENG
+							original_tag = SOV
+							is_in_faction_with = SOV
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = GER
+							is_in_faction_with = GER
+						}
+					}
+				}
+			}
+		}
+		localization_key = hoi4pc_header.ww2_general
+	}
+
+	## Asia / Oceania ##
+	# Second Sino-Japanese War
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = CHI
+							is_in_faction_with = CHI
+							original_tag = PRC
+							is_in_faction_with = PRC
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = JAP
+							is_in_faction_with = JAP
+						}
+					}
+				}
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = JAP
+							is_in_faction_with = JAP
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = CHI
+							is_in_faction_with = CHI
+							original_tag = PRC
+							is_in_faction_with = PRC
+						}
+					}
+				}
+			}
+		}
+		localization_key = hoi4pc_header.second_sino_japanese_war
+	}
+	# Pacific Theatre of WW2
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = ENG
+							is_in_faction_with = ENG
+							original_tag = USA
+							is_in_faction_with = USA
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = JAP
+							is_in_faction_with = JAP
+						}
+					}
+				}
+				AND = {
+					var:winning_country^peace_gui_index = {
+						OR = {
+							original_tag = JAP
+							is_in_faction_with = JAP
+						}
+					}
+					var:losing_country^peace_gui_index = {
+						OR = {
+							original_tag = ENG
+							is_in_faction_with = ENG
+							original_tag = USA
+							is_in_faction_with = USA
+						}
+					}
+				}
+			}
+		}
+		localization_key = hoi4pc_header.ww2_pacific_theater
+	}
+
+	## Africa ##
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					var:winning_country^peace_gui_index = {
+						original_tag = ITA
+					}
+					var:losing_country^peace_gui_index = {
+						original_tag = ETH
+					}
+				}
+				AND = {
+					var:winning_country^peace_gui_index = {
+						original_tag = ETH
+					}
+					var:losing_country^peace_gui_index = {
+						original_tag = ITA
+					}
+				}
+			}
+		}
+		localization_key = hoi4pc_header.second_italo_ethiopian_war
+	}
+
 	## Default fallback ##
 	text = {
 		localization_key = hoi4pc_header.normal
@@ -18,6 +276,14 @@ defined_text = {
 			}
 		}
 		localization_key = hoi4pc_desc.GER
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				tag = RSI
+			}
+		}
+		localization_key = hoi4pc_desc.RSI
 	}
 	text = {
 		trigger = {
@@ -72,6 +338,17 @@ defined_text = {
 			var:losing_country^peace_gui_index = {
 				original_tag = BEL
 			}
+			var:winning_country^peace_gui_index = {
+				original_tag = GER
+			}
+		}
+		localization_key = hoi4pc_desc.BEL_GER
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = BEL
+			}
 		}
 		localization_key = hoi4pc_desc.BEL
 	}
@@ -90,6 +367,14 @@ defined_text = {
 			}
 		}
 		localization_key = hoi4pc_desc.SWI
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = POL
+			}
+		}
+		localization_key = hoi4pc_desc.POL
 	}
 	text = {
 		trigger = {
@@ -113,10 +398,10 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
-				original_tag = POL
+				original_tag = NOR
 			}
 		}
-		localization_key = hoi4pc_desc.POL
+		localization_key = hoi4pc_desc.NOR
 	}
 	text = {
 		trigger = {
@@ -153,6 +438,14 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
+				original_tag = GRE
+			}
+		}
+		localization_key = hoi4pc_desc.GRE
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
 				original_tag = TUR
 			}
 		}
@@ -176,6 +469,22 @@ defined_text = {
 	}
 
 	## Asia ##
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = TAN
+			}
+		}
+		localization_key = hoi4pc_desc.TAN
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = MON
+			}
+		}
+		localization_key = hoi4pc_desc.MON
+	}
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
@@ -244,18 +553,26 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
-				original_tag = TAN
+				original_tag = MAL
 			}
 		}
-		localization_key = hoi4pc_desc.TAN
+		localization_key = hoi4pc_desc.MAL
 	}
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
-				original_tag = MON
+				original_tag = PHI
 			}
 		}
-		localization_key = hoi4pc_desc.MON
+		localization_key = hoi4pc_desc.PHI
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = INS
+			}
+		}
+		localization_key = hoi4pc_desc.INS
 	}
 
 	## Africa
@@ -284,6 +601,14 @@ defined_text = {
 			}
 		}
 		localization_key = hoi4pc_desc.CAN
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = MEX
+			}
+		}
+		localization_key = hoi4pc_desc.MEX
 	}
 
 	## Default fallback ##
@@ -318,11 +643,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			NOT = { has_war_together_with = losing_country^peace_gui_index }
-			NOT = { is_in_faction_with = losing_country^peace_gui_index }
-			NOT = { any_allied_country = { has_war_with = losing_country^peace_gui_index } }
-			NOT = { has_war_with = losing_country^peace_gui_index }
-			NOT = { tag = losing_country^peace_gui_index }
+			NOT = {
+				has_war_together_with = losing_country^peace_gui_index
+				is_in_faction_with = losing_country^peace_gui_index
+				any_allied_country = { has_war_with = losing_country^peace_gui_index }
+				has_war_with = losing_country^peace_gui_index
+				tag = losing_country^peace_gui_index
+			}
 		}
 		localization_key = peace_capitulation_close_neutral
 	}

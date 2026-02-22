@@ -12,33 +12,54 @@ peace_capitulation_close_neutral: "Uncertain times"
 
 ##=== Header ===##
 
+# Asia / Oceania
+hoi4pc_header.second_sino_japanese_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YSecond Sino-Japanese War§!."
+
+# Europe
+hoi4pc_header.ww2_general: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §RSecond World War§!."
+hoi4pc_header.ww2_western_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YWestern Front§! of the §RSecond World War§!."
+hoi4pc_header.ww2_eastern_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YEastern Front§! of the §RSecond World War§!."
+hoi4pc_header.ww2_pacific_theater: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YPacific Theatre§! of the §RSecond World War§!."
+
+hoi4pc_header.operation_weserubung: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has secured §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in §YOperation Weserübung§!."
+
+# Africa
+hoi4pc_header.second_italo_ethiopian_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has beaten §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YSecond Italo-Ethiopian War§!."
+
 hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in a war."
 
 ##=== Desc ===##
 
 # Europe
 hoi4pc_desc.GER: "Endsieg."
+hoi4pc_desc.RSI: "Il Duce's final gamble ends here."
 hoi4pc_desc.ITA: "All roads lead to Rome, paved in blood."
 hoi4pc_desc.ENG: "The sun has finally set on the British Empire."
 hoi4pc_desc.FRA: "Liberté, égalité, fraternité - ou la mort."
 hoi4pc_desc.SOV: "Not one step back."
 
 hoi4pc_desc.HOL: "They could hold back the power of the sea, but not of man."
-hoi4pc_desc.BEL: "The people of Belgium fell to darkness, once again."
+hoi4pc_desc.BEL_GER: "The road through the Ardennes has opened."
+hoi4pc_desc.BEL: "Once more, the people of Belgium falls to darkness."
 hoi4pc_desc.LUX: "Too small to hide."
 hoi4pc_desc.SWI: "Neutrality could not save the Swiss."
 hoi4pc_desc.POL: "Not yet lost... until now."
 hoi4pc_desc.DEN_GER: "Six hours."
 hoi4pc_desc.DEN: "Silence falls over Copenhagen."
-hoi4pc_desc.SPA: "Por Dios y por España!"
-hoi4pc_desc.SPB: "The old banner is folded for the last time."
-hoi4pc_desc.SPC: "No gods. No masters. No hope."
-hoi4pc_desc.SPD: "No pasarán!"
-hoi4pc_desc.TUR: "The gates of the Bosphorus has been opened."
+hoi4pc_desc.NOR: "Even the northern lights grow dim."
+hoi4pc_desc.SPA: "¡Por Dios y por España!" # Nationalist spain
+hoi4pc_desc.SPB: "The old banner is folded for the last time." # Carlist spain
+hoi4pc_desc.SPC: "No gods. No masters. No hope." # CNT/FAI spain
+hoi4pc_desc.SPD: "¡No pasarán!" # Republican spain
+hoi4pc_desc.GRE: ""Molṑn labé!""
+hoi4pc_desc.TUR: "The gates of the Bosphorus have been opened."
 hoi4pc_desc.FIN: "The winter embraced us, but it could not save us."
 hoi4pc_desc.IRE: "And they dreamt of their homeland united."
 
 # Asia / Oceania
+hoi4pc_desc.TAN: "Tannu what?"
+hoi4pc_desc.MON: "The steppes have a new master."
+
 hoi4pc_desc.JAP: "The Rising Sun has been eclipsed."
 hoi4pc_desc.MAN: "The Mandate of Heaven was never bestowed upon him."
 hoi4pc_desc.CHI: "The mighty Yangtze River flows eastward, its waves washing away the heroes of the past."
@@ -48,8 +69,9 @@ hoi4pc_desc.RAJ_dominion: "The Jewel cracks."
 hoi4pc_desc.RAJ_free: "The People of India tasted freedom, but it was just a glimpse."
 hoi4pc_desc.AST: "No land too far, no outback untamed."
 hoi4pc_desc.NZL: "ANZAC remembers."
-hoi4pc_desc.TAN: "Tannu what?"
-hoi4pc_desc.MAN: "The steppes have a new master."
+hoi4pc_desc.MAL: "The monsoon and the jungle could not stop them."
+hoi4pc_desc.PHI: "The archipelago falls silent."
+hoi4pc_desc.INS: "The East Indies have a new master."
 
 # Africa
 hoi4pc_desc.ETH: "The light of freedom flickers in Africa."
@@ -57,6 +79,7 @@ hoi4pc_desc.ETH: "The light of freedom flickers in Africa."
 # America
 hoi4pc_desc.USA: "The last bastion of democracy has been toppled for good."
 hoi4pc_desc.CAN: "From Vimy Ridge to this."
+hoi4pc_desc.MEX: "So far from God, so close to death."
 
 # Default
 hoi4pc_desc.default: "War is hell."
