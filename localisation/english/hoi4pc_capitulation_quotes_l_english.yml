@@ -13,20 +13,21 @@ peace_capitulation_close_neutral: "Uncertain times"
 ##=== Header ===##
 
 # Asia / Oceania
-hoi4pc_header.second_sino_japanese_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YSecond Sino-Japanese War§!."
+hoi4pc_header.second_sino_japanese_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YSecond Sino-Japanese War§!."
 
 # Europe
-hoi4pc_header.ww2_general: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §RSecond World War§!."
-hoi4pc_header.ww2_western_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YWestern Front§! of the §RSecond World War§!."
-hoi4pc_header.ww2_eastern_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YEastern Front§! of the §RSecond World War§!."
-hoi4pc_header.ww2_pacific_theater: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YPacific Theatre§! of the §RSecond World War§!."
+hoi4pc_header.ww2_general: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §RSecond World War§!."
+hoi4pc_header.ww2_western_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YWestern Front§! of the §RSecond World War§!."
+hoi4pc_header.ww2_eastern_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YEastern Front§! of the §RSecond World War§!."
+hoi4pc_header.ww2_pacific_theater: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YPacific Theatre§! of the §RSecond World War§!."
 
-hoi4pc_header.operation_weserubung: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has secured §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in §YOperation Weserübung§!."
+hoi4pc_header.operation_weserubung: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has secured §Y[?losing_country^peace_gui_index.GetNameDef]§! in §YOperation Weserübung§!."
+hoi4pc_header.operation_sealion: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has §Ycrossed the channel§! and invaded §Y[?losing_country^peace_gui_index.GetNameDef]§! in §YOperation Sealion§!."
 
 # Africa
-hoi4pc_header.second_italo_ethiopian_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has beaten §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in the §YSecond Italo-Ethiopian War§!."
+hoi4pc_header.second_italo_ethiopian_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has beaten §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YSecond Italo-Ethiopian War§!."
 
-hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDefCap]§! in a war."
+hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in a war."
 
 ##=== Desc ===##
 
@@ -34,7 +35,7 @@ hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! ha
 hoi4pc_desc.GER: "Endsieg."
 hoi4pc_desc.RSI: "Il Duce's final gamble ends here."
 hoi4pc_desc.ITA: "All roads lead to Rome, paved in blood."
-hoi4pc_desc.ENG: "The sun has finally set on the British Empire."
+hoi4pc_desc.ENG: "The sun finally sets on the British Empire."
 hoi4pc_desc.FRA: "Liberté, égalité, fraternité - ou la mort."
 hoi4pc_desc.SOV: "Not one step back."
 

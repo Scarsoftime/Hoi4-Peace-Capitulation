@@ -18,6 +18,18 @@ defined_text = {
 		}
 		localization_key = hoi4pc_header.operation_weserubung
 	}
+	# Operation Sealioin - German invasion of the UK
+	text = {
+		trigger = {
+			var:winning_country^peace_gui_index = {
+				original_tag = GER
+			}
+			var:losing_country^peace_gui_index = {
+				original_tag = ENG
+			}
+		}
+		localization_key = hoi4pc_header.operation_sealion
+	}
 	# Western Europe WW2 - Showed after the comintern joins
 	text = {
 		trigger = {
