@@ -39,21 +39,17 @@ defined_text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
 				original_tag = FRA
-				NOT = {
-					has_government = democratic
-					has_government = communism
-				}
 			}
 		}
-		localization_key = hoi4pc_desc.FRA_monarchist
+		localization_key = hoi4pc_desc.FRA
 	}
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
-				original_tag = FRA
+				original_tag = SOV
 			}
 		}
-		localization_key = hoi4pc_desc.FRA
+		localization_key = hoi4pc_desc.SOV
 	}
 	text = {
 		trigger = {
@@ -125,10 +121,34 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
-				original_tag = SPR
+				tag = SPA
 			}
 		}
-		localization_key = hoi4pc_desc.SPR
+		localization_key = hoi4pc_desc.SPA
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				tag = SPB
+			}
+		}
+		localization_key = hoi4pc_desc.SPB
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				tag = SPC
+			}
+		}
+		localization_key = hoi4pc_desc.SPC
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				tag = SPD
+			}
+		}
+		localization_key = hoi4pc_desc.SPD
 	}
 	text = {
 		trigger = {
@@ -175,6 +195,14 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
+				original_tag = CHI
+			}
+		}
+		localization_key = hoi4pc_desc.CHI
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
 				original_tag = PRC
 			}
 		}
@@ -212,6 +240,22 @@ defined_text = {
 			}
 		}
 		localization_key = hoi4pc_desc.NZL
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = TAN
+			}
+		}
+		localization_key = hoi4pc_desc.TAN
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = MON
+			}
+		}
+		localization_key = hoi4pc_desc.MON
 	}
 
 	## Africa
