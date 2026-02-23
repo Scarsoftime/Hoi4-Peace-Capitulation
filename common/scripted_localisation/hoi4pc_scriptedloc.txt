@@ -18,7 +18,7 @@ defined_text = {
 		}
 		localization_key = hoi4pc_header.operation_weserubung
 	}
-	# Operation Sealioin - German invasion of the UK
+	# Operation Sealion - German invasion of the UK
 	text = {
 		trigger = {
 			var:winning_country^peace_gui_index = {
@@ -30,105 +30,34 @@ defined_text = {
 		}
 		localization_key = hoi4pc_header.operation_sealion
 	}
-	# Western Europe WW2 - Showed after the comintern joins
+	# Balkan Campaign
 	text = {
 		trigger = {
-			all_country_with_original_tag = {
-				original_tag_to_check = SOV
+			var:winning_country^peace_gui_index = {
 				OR = {
-					has_war_with = GER
-					any_allied_country = {
-						has_war_with = GER
-					}
+					original_tag = GER
+					is_in_faction_with = GER
 				}
 			}
-			OR = {
-				AND = {
-					var:winning_country^peace_gui_index = {
-						OR = {
-							original_tag = GER
-							is_in_faction_with = GER
-						}
-					}
-					var:losing_country^peace_gui_index = {
-						OR = {
-							original_tag = ENG
-							is_in_faction_with = ENG
-							original_tag = USA
-							is_in_faction_with = USA
-						}
-					}
-				}
-				AND = {
-					var:winning_country^peace_gui_index = {
-						OR = {
-							original_tag = ENG
-							is_in_faction_with = ENG
-							original_tag = USA
-							is_in_faction_with = USA
-						}
-					}
-					var:losing_country^peace_gui_index = {
-						OR = {
-							original_tag = GER
-							is_in_faction_with = GER
-						}
-					}
+			var:losing_country^peace_gui_index = {
+				OR = {
+					original_tag = YUG
+					original_tag = GRE
 				}
 			}
 		}
-		localization_key = hoi4pc_header.ww2_western_europe
+		localization_key = hoi4pc_header.balkan_campaign
 	}
-	# Eastern Europe WW2 - Showed after the allies joins
-	text = {
-		trigger = {
-			ENG = {
-				OR = {
-					has_war_with = GER
-					any_allied_country = {
-						has_war_with = GER
-					}
-				}
-			}
-			OR = {
-				AND = {
-					var:winning_country^peace_gui_index = {
-						OR = {
-							original_tag = GER
-							is_in_faction_with = GER
-						}
-					}
-					var:losing_country^peace_gui_index = {
-						OR = {
-							original_tag = SOV
-							is_in_faction_with = SOV
-						}
-					}
-				}
-				AND = {
-					var:winning_country^peace_gui_index = {
-						OR = {
-							original_tag = SOV
-							is_in_faction_with = SOV
-						}
-					}
-					var:losing_country^peace_gui_index = {
-						OR = {
-							original_tag = GER
-							is_in_faction_with = GER
-						}
-					}
-				}
-			}
-		}
-		localization_key = hoi4pc_header.ww2_eastern_europe
-	}
-	# General ww2 - Showed when Allies XOR The Comintern is at war
+	# General WW2
 	text = {
 		trigger = {
 			OR = {
 				AND = {
 					var:winning_country^peace_gui_index = {
+						NOT = { # Possibility of Japan joining the Axis
+							original_tag = JAP
+							is_subject_of = JAP
+						}
 						OR = {
 							original_tag = GER
 							is_in_faction_with = GER
@@ -153,6 +82,10 @@ defined_text = {
 						}
 					}
 					var:losing_country^peace_gui_index = {
+						NOT = { # Possibility of Japan joining the Axis
+							original_tag = JAP
+							is_subject_of = JAP
+						}
 						OR = {
 							original_tag = GER
 							is_in_faction_with = GER
@@ -249,23 +182,11 @@ defined_text = {
 	## Africa ##
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					var:winning_country^peace_gui_index = {
-						original_tag = ITA
-					}
-					var:losing_country^peace_gui_index = {
-						original_tag = ETH
-					}
-				}
-				AND = {
-					var:winning_country^peace_gui_index = {
-						original_tag = ETH
-					}
-					var:losing_country^peace_gui_index = {
-						original_tag = ITA
-					}
-				}
+			var:winning_country^peace_gui_index = {
+				original_tag = ITA
+			}
+			var:losing_country^peace_gui_index = {
+				original_tag = ETH
 			}
 		}
 		localization_key = hoi4pc_header.second_italo_ethiopian_war

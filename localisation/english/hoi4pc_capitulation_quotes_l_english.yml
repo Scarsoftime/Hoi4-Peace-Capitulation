@@ -7,27 +7,26 @@ peace_capitulation_main: "[hoi4pc_get_header]"
 peace_capitulation_desc: "[hoi4pc_get_desc]"
 peace_capitulation_close: "[hoi4pc_get_close]"
 peace_capitulation_close_good: "Great news!"
-peace_capitulation_close_bad: "These are dark times"
-peace_capitulation_close_neutral: "Uncertain times"
+peace_capitulation_close_bad: "These are dark times."
+peace_capitulation_close_neutral: "Uncertain times."
 
 ##=== Header ===##
 
 # Asia / Oceania
 hoi4pc_header.second_sino_japanese_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YSecond Sino-Japanese War§!."
+hoi4pc_header.ww2_pacific_theater: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YPacific Theatre§! of the §RSecond World War§!."
 
 # Europe
-hoi4pc_header.ww2_general: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §RSecond World War§!."
-hoi4pc_header.ww2_western_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YWestern Front§! of the §RSecond World War§!."
-hoi4pc_header.ww2_eastern_europe: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YEastern Front§! of the §RSecond World War§!."
-hoi4pc_header.ww2_pacific_theater: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YPacific Theatre§! of the §RSecond World War§!."
+hoi4pc_header.ww2_general: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in the chaos of the §RSecond World War§!."
 
 hoi4pc_header.operation_weserubung: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has secured §Y[?losing_country^peace_gui_index.GetNameDef]§! in §YOperation Weserübung§!."
 hoi4pc_header.operation_sealion: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has §Ycrossed the channel§! and invaded §Y[?losing_country^peace_gui_index.GetNameDef]§! in §YOperation Sealion§!."
+hoi4pc_header.balkan_campaign: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has quashed §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YBalkan Campaign§!."
 
 # Africa
 hoi4pc_header.second_italo_ethiopian_war: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has beaten §Y[?losing_country^peace_gui_index.GetNameDef]§! in the §YSecond Italo-Ethiopian War§!."
 
-hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in a war."
+hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in an armed conflict."
 
 ##=== Desc ===##
 
@@ -78,7 +77,7 @@ hoi4pc_desc.INS: "The East Indies have a new master."
 hoi4pc_desc.ETH: "The light of freedom flickers in Africa."
 
 # America
-hoi4pc_desc.USA: "The last bastion of democracy has been toppled for good."
+hoi4pc_desc.USA: "So the world shall be His footstool, and the soul of Time His slave."
 hoi4pc_desc.CAN: "From Vimy Ridge to this."
 hoi4pc_desc.MEX: "So far from God, so close to death."
 
