@@ -40,7 +40,7 @@ hoi4pc_desc.SOV: "Not one step back."
 
 hoi4pc_desc.HOL: "They could hold back the power of the sea, but not of man."
 hoi4pc_desc.BEL_GER: "The road through the Ardennes has opened."
-hoi4pc_desc.BEL: "Once more, the people of Belgium falls to darkness."
+hoi4pc_desc.BEL: "Once more, the people of Belgium fall to darkness."
 hoi4pc_desc.LUX: "Too small to hide."
 hoi4pc_desc.SWI: "Neutrality could not save the Swiss."
 hoi4pc_desc.POL: "Not yet lost... until now."
@@ -49,7 +49,7 @@ hoi4pc_desc.DEN: "Silence falls over Copenhagen."
 hoi4pc_desc.NOR: "Even the northern lights grow dim."
 hoi4pc_desc.SPA: "¡Por Dios y por España!" # Nationalist spain
 hoi4pc_desc.SPB: "The old banner is folded for the last time." # Carlist spain
-hoi4pc_desc.SPC: "No gods. No masters. No hope." # CNT/FAI spain
+hoi4pc_desc.SPC: "No gods, no masters, no hope." # CNT/FAI spain
 hoi4pc_desc.SPD: "¡No pasarán!" # Republican spain
 hoi4pc_desc.GRE: ""Molṑn labé!""
 hoi4pc_desc.TUR: "The gates of the Bosphorus have been opened."
@@ -67,7 +67,7 @@ hoi4pc_desc.PRC: "And so they marched once more, never to return."
 
 hoi4pc_desc.RAJ_dominion: "The Jewel cracks."
 hoi4pc_desc.RAJ_free: "The People of India tasted freedom, but it was just a glimpse."
-hoi4pc_desc.AST: "No land too far, no outback untamed."
+hoi4pc_desc.AST: "And his ghost may be heard as you pass by that billabong."
 hoi4pc_desc.NZL: "ANZAC remembers."
 hoi4pc_desc.MAL: "The monsoon and the jungle could not stop them."
 hoi4pc_desc.PHI: "The archipelago falls silent."
