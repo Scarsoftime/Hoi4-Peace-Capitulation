@@ -52,13 +52,16 @@ hoi4pc_desc.SPA: "¡Por Dios y por España!" # Nationalist spain
 hoi4pc_desc.SPB: "The old banner is folded for the last time." # Carlist spain
 hoi4pc_desc.SPC: "No gods, no masters, no hope." # CNT/FAI spain
 hoi4pc_desc.SPD: "¡No pasarán!" # Republican spain
+hoi4pc_desc.POR: "Lisbon bows, and the Age of Discovery is but an old memory."
 hoi4pc_desc.GRE: ""Molṑn labé!""
 hoi4pc_desc.TUR: "The gates of the Bosphorus have been opened."
 hoi4pc_desc.FIN: "The snow covers the fallen."
 hoi4pc_desc.IRE: "And they dreamt of their homeland united."
+hoi4pc_desc.CZE: "Is this the peace for our time?"
 hoi4pc_desc.YUG: "Only their graves remain united."
 hoi4pc_desc.HUN: "Another requiem falls upon the Danube."
 hoi4pc_desc.ROM: "The forests of Wallachia loom over their graves."
+hoi4pc_desc.BUL: "San Stefano remains a dream."
 
 # Asia / Oceania
 hoi4pc_desc.TAN: "Tannu what?"
@@ -69,13 +72,21 @@ hoi4pc_desc.MAN: "The Mandate of Heaven was never bestowed upon him."
 hoi4pc_desc.CHI: "The mighty Yangtze River flows eastward, its waves washing away the heroes of the past."
 hoi4pc_desc.PRC: "And so they marched once more, never to return."
 
+hoi4pc_desc.SHX: "The mountains could only delay their fate." # Shanxi
+hoi4pc_desc.HBC: "Song had yielded once; there was nowhere left to retreat." # Hebei-Chahar
+hoi4pc_desc.SND: "The land of Qi outlived another of its kings." # Shandong
+
 hoi4pc_desc.RAJ_dominion: "The Jewel cracks."
 hoi4pc_desc.RAJ_free: "The People of India tasted freedom, but it was just a glimpse."
 hoi4pc_desc.AST: "And his ghost may be heard as you pass by that billabong."
 hoi4pc_desc.NZL: "ANZAC remembers."
+
+hoi4pc_desc.SIA: "The Menam still flows, indifferent to its kings."
 hoi4pc_desc.MAL: "The monsoon and the jungle could not stop them."
 hoi4pc_desc.PHI: "The archipelago falls silent."
 hoi4pc_desc.INS: "The East Indies have a new master."
+
+hoi4pc_desc.AFG: "May they serve as their own grave, for the last time."
 
 # Africa
 hoi4pc_desc.ETH: "The light of freedom flickers in Africa."

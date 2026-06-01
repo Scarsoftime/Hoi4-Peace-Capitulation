@@ -371,6 +371,14 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
+				original_tag = POR
+			}
+		}
+		localization_key = hoi4pc_desc.POR
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
 				original_tag = GRE
 			}
 		}
@@ -403,6 +411,14 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
+				original_tag = CZE
+			}
+		}
+		localization_key = hoi4pc_desc.CZE
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
 				original_tag = YUG
 			}
 		}
@@ -415,6 +431,14 @@ defined_text = {
 			}
 		}
 		localization_key = hoi4pc_desc.HUN
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = BUL
+			}
+		}
+		localization_key = hoi4pc_desc.BUL
 	}
 	text = {
 		trigger = {
@@ -477,6 +501,30 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
+				original_tag = SHX
+			}
+		}
+		localization_key = hoi4pc_desc.SHX
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = HBC
+			}
+		}
+		localization_key = hoi4pc_desc.HBC
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = SND
+			}
+		}
+		localization_key = hoi4pc_desc.SND
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
 				original_tag = RAJ
 				is_subject = yes
 			}
@@ -510,6 +558,14 @@ defined_text = {
 	text = {
 		trigger = {
 			var:losing_country^peace_gui_index = {
+				original_tag = SIA
+			}
+		}
+		localization_key = hoi4pc_desc.SIA
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
 				original_tag = MAL
 			}
 		}
@@ -530,6 +586,14 @@ defined_text = {
 			}
 		}
 		localization_key = hoi4pc_desc.INS
+	}
+	text = {
+		trigger = {
+			var:losing_country^peace_gui_index = {
+				original_tag = AFG
+			}
+		}
+		localization_key = hoi4pc_desc.AFG
 	}
 
 	## Africa
